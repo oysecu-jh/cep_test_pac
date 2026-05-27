@@ -4,7 +4,8 @@ function FindProxyForURL(url, host) {
   // 구글 보안 게이트웨이(Secure Gateway)로 라우팅할 대상 도메인 리스트
   const sites = [
     "oliveyoungglobal.zendesk.com",
-    "bo.oliveyoung.com" // 
+    "bo.oliveyoung.com",
+    "use-bo.oliveyoung.com/"// 
   ];
   
   for (const site of sites) {
