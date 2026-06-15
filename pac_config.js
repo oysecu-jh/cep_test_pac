@@ -5,8 +5,8 @@ function FindProxyForURL(url, host) {
   const sites = [
     "oliveyoungglobal.zendesk.com",
     "bo.oliveyoung.com",
-    "use-bo.oliveyoung.com"
-    "use-bo.private.oliveyoung.com" // 
+    "use-bo.oliveyoung.com",
+    "private.oliveyoung.com"// 
   ];
   
   for (const site of sites) {
